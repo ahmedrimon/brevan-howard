@@ -1,0 +1,25 @@
+.contactus-container {
+  background-image: url("../../../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8em;
+  height: 81vh;
+}
+
+.contactus-container .contactus-text {
+  color: #9d968c;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.contactus-container .contactus-span {
+  font-size: 6.625rem;
+  font-family: 'Canela';
+  margin-top: 0.5em;
+  color: white;
+}
+
+.contactus-container .contactus-own {
+  color: white;
+}
+/*# sourceMappingURL=ContackUs.css.map */

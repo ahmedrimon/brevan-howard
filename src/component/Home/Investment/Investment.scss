@@ -1,0 +1,23 @@
+.investment-container {
+  margin-top: 7em;
+  background-color: #f6f5f2;
+  height: 100vh;
+  padding-top: 4em;
+  .investment-first-text {
+    font-family: 'Canela';
+    font-weight: 100;
+    font-size: 6.2rem;
+    line-height: 1.29;
+    color: rgb(33, 41, 62);
+    letter-spacing: -0.017em;
+  }
+  .investment-para {
+    font-size: 1.375rem;
+    width: 50%;
+  }
+  .investment-second-para {
+    font-size: 1.375rem;
+    margin-top: 4em;
+    width: 50%;
+  }
+}

@@ -1,0 +1,21 @@
+.hallmarks-container {
+  background-image: url('../../../assets/map.jpg');
+  background-size: cover;
+  height: 70vh;
+
+  .hallmarks-text {
+    padding-top: 1em;
+    color: #fff;
+    display: block;
+    font-size: 6.25rem;
+    font-family: 'Canela';
+  }
+  .hallmarks-span-text {
+    color: rgb(209, 200, 186);
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  .hallmarks-picture-center {
+    margin: 0.236em;
+  }
+}

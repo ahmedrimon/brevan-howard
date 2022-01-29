@@ -1,0 +1,22 @@
+.navbar {
+  padding-top: 4em;
+}
+
+.navbar .container .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar .container .navbar-nav .nav-item .nav-link {
+  color: grey;
+}
+
+.navbar .container .navbar-nav .nav-item .nav-link:hover {
+  color: #fff;
+}
+
+.navbar .line {
+  border-left: 1px solid #c1d4eb;
+  height: 4vh;
+}
+/*# sourceMappingURL=Nabar.css.map */

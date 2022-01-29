@@ -1,0 +1,22 @@
+.navbar {
+  padding-top: 4em;
+  .container {
+    .navbar-toggler:focus {
+      box-shadow: none;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: grey;
+        }
+        .nav-link:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .line {
+    border-left: 1px solid #c1d4eb;
+    height: 4vh;
+  }
+}

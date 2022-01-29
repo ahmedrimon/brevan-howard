@@ -1,0 +1,20 @@
+.hero-container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../../assets/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.text-container {
+  color: #fff;
+  margin-top: 4em;
+  margin-left: 12em;
+  padding: 12em;
+  display: block;
+}
+
+.hero-text {
+  font-size: 4.2rem;
+}
+/*# sourceMappingURL=Hero.css.map */

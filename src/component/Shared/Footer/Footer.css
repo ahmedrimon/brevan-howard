@@ -1,0 +1,35 @@
+.footer-container {
+  background-color: #141c25;
+  height: 80vh;
+  padding: 10em;
+  /* last part */
+}
+
+.footer-container .footer-logo {
+  width: 80%;
+}
+
+.footer-container .middle-footer {
+  margin-top: 4em;
+}
+
+.footer-container .footer-end {
+  line-height: 1.9;
+  font-size: 12px;
+  color: white;
+  opacity: 0.5;
+}
+
+.footer-container .footer-right-side {
+  margin-top: 5.4em;
+}
+
+.footer-container .footer-right-end {
+  margin-top: 7.39em;
+}
+
+.footer-container .footer-last-part {
+  font-family: 'Canela';
+  font-size: 4rem;
+}
+/*# sourceMappingURL=Footer.css.map */
