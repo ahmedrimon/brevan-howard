@@ -4,6 +4,10 @@
   height: 70vh;
 }
 
+.hallmarks-container .hallmarks-logo-container {
+  margin-top: 2em;
+}
+
 .hallmarks-container .hallmarks-text {
   padding-top: 1em;
   color: #fff;
@@ -20,5 +24,20 @@
 
 .hallmarks-container .hallmarks-picture-center {
   margin: 0.236em;
+}
+
+@media screen and (max-width: 768px) {
+  .hallmarks-container {
+    height: 120vh;
+  }
+  .hallmarks-logo-container {
+    margin-top: 5em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hallmarks-container {
+    height: 123vh;
+  }
 }
 /*# sourceMappingURL=HallMarks.css.map */

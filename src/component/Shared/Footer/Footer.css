@@ -32,4 +32,22 @@
   font-family: 'Canela';
   font-size: 4rem;
 }
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    height: 100vh;
+  }
+  .footer-last-part {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-container {
+    height: 100vh;
+  }
+  .footer-last-part {
+    margin-top: 4rem;
+  }
+}
 /*# sourceMappingURL=Footer.css.map */

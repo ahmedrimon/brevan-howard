@@ -4,17 +4,35 @@
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.5;
+  padding-top: 26rem;
+  width: 100%;
 }
 
 .text-container {
   color: #fff;
-  margin-top: 4em;
-  margin-left: 12em;
-  padding: 12em;
+  margin-top: 2rem;
+  padding: 3rem;
+  margin-left: 12rem;
   display: block;
 }
 
 .hero-text {
-  font-size: 4.2rem;
+  font-size: 4rem;
+}
+
+/* Tab Size */
+@media screen and (max-width: 768px) {
+  .hero-container {
+    height: 50rem;
+  }
+  .text-container {
+    color: #fff;
+    margin-top: 1rem;
+    padding: 1rem;
+    display: block;
+  }
+  .hero-text {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=Hero.css.map */

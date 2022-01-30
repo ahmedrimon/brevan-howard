@@ -1,3 +1,9 @@
+.years-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .number-eighteen {
   font-family: 'Canela';
   font-size: 23.438rem;
@@ -19,6 +25,10 @@
   font-weight: 300;
 }
 
+.flex-place-years {
+  margin-top: 2em;
+}
+
 .member {
   font-family: 'Canela';
   font-size: 5.75rem;
@@ -31,5 +41,32 @@
 
 .sidebar-three {
   margin-left: 3.624em;
+}
+
+/* tab size */
+@media screen and (max-width: 768px) {
+  .years-container {
+    display: block;
+  }
+  .number-eighteen {
+    font-family: 'Canela';
+    font-size: 23.438rem;
+    font-weight: 100;
+    line-height: 1;
+    color: #9d968c;
+  }
+  .years-history {
+    font-size: 1.25rem;
+    line-height: 1;
+    margin-bottom: 0.7em;
+  }
+  .flex-place-years {
+    margin-top: 2em;
+  }
+  .member {
+    font-family: 'Canela';
+    font-size: 5.75rem;
+    color: #9d968c;
+  }
 }
 /*# sourceMappingURL=YearsHistory.css.map */

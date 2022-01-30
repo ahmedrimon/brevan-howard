@@ -1,5 +1,9 @@
 .navbar {
-  padding-top: 4em;
+  background-color: #151c25;
+}
+
+.navbar .container {
+  /* copy item */
 }
 
 .navbar .container .navbar-toggler:focus {
@@ -9,13 +13,29 @@
 
 .navbar .container .navbar-nav .nav-item .nav-link {
   color: grey;
+  position: relative;
+  display: inline-block;
 }
 
-.navbar .container .navbar-nav .nav-item .nav-link:hover {
+.navbar .container .nav-item .nav-link::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #c1d4eb;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  bottom: 0;
+}
+
+.navbar .container .nav-item .nav-link.active::after,
+.navbar .container .nav-item .nav-link:hover::after {
+  width: 100%;
   color: #fff;
 }
 
-.navbar .line {
+.navbar .container .line {
   border-left: 1px solid #c1d4eb;
   height: 4vh;
 }

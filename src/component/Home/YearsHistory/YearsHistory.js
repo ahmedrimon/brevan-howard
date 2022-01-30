@@ -3,7 +3,7 @@ import './YearsHistory.css';
 
 const YearsHistory = () => {
   return (
-    <section className="years-container mt-5 d-flex">
+    <section className="years-container mt-5">
       <main>
         <div className="number-eighteen">18</div>
         <div className="years-history">Years History</div>
@@ -12,7 +12,7 @@ const YearsHistory = () => {
           processes and delivering results for our clients.
         </span>
       </main>
-      <main>
+      <main className="flex-place-years">
         <section className="d-flex">
           <span className="member">300+</span>
           <div className="mx-5 mt-3">

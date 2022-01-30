@@ -2,7 +2,9 @@
   background-image: url('../../../assets/map.jpg');
   background-size: cover;
   height: 70vh;
-
+  .hallmarks-logo-container {
+    margin-top: 2em;
+  }
   .hallmarks-text {
     padding-top: 1em;
     color: #fff;
@@ -17,5 +19,20 @@
   }
   .hallmarks-picture-center {
     margin: 0.236em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hallmarks-container {
+    height: 120vh;
+  }
+  .hallmarks-logo-container {
+    margin-top: 5em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hallmarks-container {
+    height: 123vh;
   }
 }

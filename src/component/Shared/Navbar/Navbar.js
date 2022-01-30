@@ -9,10 +9,10 @@ import { faHamburger } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
-        <Link to="#" className="navbar-brand">
-          <img src={logo} alt="" />
+        <Link to="/" className="navbar-brand">
+          <img src={logo} alt="logo" />
         </Link>
         <button
           className="navbar-toggler"

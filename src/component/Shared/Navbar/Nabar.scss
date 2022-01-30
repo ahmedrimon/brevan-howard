@@ -1,5 +1,5 @@
 .navbar {
-  padding-top: 4em;
+  background-color: #151c25;
   .container {
     .navbar-toggler:focus {
       box-shadow: none;
@@ -8,15 +8,30 @@
       .nav-item {
         .nav-link {
           color: grey;
-        }
-        .nav-link:hover {
-          color: #fff;
+          position: relative;
+          display: inline-block;
         }
       }
     }
-  }
-  .line {
-    border-left: 1px solid #c1d4eb;
-    height: 4vh;
+    /* copy item */
+    .nav-item .nav-link::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: #c1d4eb;
+      transition: 0.3s;
+      bottom: 0;
+    }
+    .nav-item .nav-link.active::after,
+    .nav-item .nav-link:hover::after {
+      width: 100%;
+      color: #fff;
+    }
+    .line {
+      border-left: 1px solid #c1d4eb;
+      height: 4vh;
+    }
   }
 }

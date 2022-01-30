@@ -15,25 +15,25 @@ const HallMarks = () => {
       <section className="container">
         <span className="hallmarks-text">Hallmarks of Brevan Howard</span>
         <section className="row mt-5 text-center">
-          <section className="col-xxl-4">
-            <div>
-              <img src={people} alt="" />
+          <section className="col-xxl-4 col-md-4 col-sm-4">
+            <div className="hallmarks-logo-container">
+              <img className="hallmarks-logo" src={people} alt="" />
               <main className="mt-5">
                 <div className="hallmarks-span-text">Extraordinary</div>
                 <div className="hallmarks-span-text">People</div>
               </main>
             </div>
-            <div className="mt-5">
-              <img src={technology} alt="" />
+            <div className="hallmarks-logo-container">
+              <img className="hallmarks-logo" src={technology} alt="" />
               <main className="mt-5">
                 <div className="hallmarks-span-text">Best-in-Class</div>
                 <div className="hallmarks-span-text">Technology</div>
               </main>
             </div>
           </section>
-          <section className="col-xxl-4">
-            <div>
-              <img src={stock} alt="" />
+          <section className="col-xxl-4 col-md-4 col-sm-4">
+            <div className="hallmarks-logo-container">
+              <img className="hallmarks-logo" src={stock} alt="" />
               <main className="mt-5">
                 <div className="hallmarks-span-text">
                   Diversified Investment
@@ -41,24 +41,24 @@ const HallMarks = () => {
                 <div className="hallmarks-span-text">Products</div>
               </main>
             </div>
-            <div className="mt-5">
-              <img src={outstanding} alt="" />
+            <div className="hallmarks-logo-container">
+              <img className="hallmarks-logo" src={outstanding} alt="" />
               <main className="mt-5">
                 <div className="hallmarks-span-text">Outstanding</div>
                 <div className="hallmarks-span-text">Macro Analysis</div>
               </main>
             </div>
           </section>
-          <section className="col-xxl-4">
-            <div>
-              <img src={structure} alt="" />
+          <section className="col-xxl-4 col-md-4 col-sm-4">
+            <div className="hallmarks-logo-container">
+              <img className="hallmarks-logo" src={structure} alt="" />
               <main className="mt-5">
                 <div className="hallmarks-span-text">Structuring</div>
                 <div className="hallmarks-span-text">Expertise</div>
               </main>
             </div>
-            <div className="mt-5">
-              <img src={search} alt="" />
+            <div className="hallmarks-logo-container">
+              <img className="hallmarks-logo" src={search} alt="" />
               <main className="mt-5">
                 <div className="hallmarks-span-text">Excellence in</div>
                 <div className="hallmarks-span-text">Risk Management</div>
