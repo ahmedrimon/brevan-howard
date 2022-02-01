@@ -32,7 +32,17 @@
     display: block;
   }
   .hero-text {
-    font-size: 1rem;
+    font-size: 2rem;
+  }
+}
+
+/* mobile size */
+@media screen and (max-width: 501px) {
+  .hero-container {
+    height: 35rem;
+  }
+  .text-container {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=Hero.css.map */
