@@ -1,13 +1,8 @@
-.main-bg {
-  background-color: #141c25;
-  height: 100vh;
-}
-
 /* mobile size */
-@media screen and (max-width: 501px) {
+@media screen and (min-width: 576px) {
   .main-bg {
     background-color: #141c25;
-    height: 60vh;
+    height: 70vh;
   }
 }
 /*# sourceMappingURL=Home.css.map */

@@ -37,9 +37,9 @@
 }
 
 /* mobile size */
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 576px) {
   .hero-container {
-    height: 35rem;
+    height: 40rem;
   }
   .text-container {
     margin: 0;
